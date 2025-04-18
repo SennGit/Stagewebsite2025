@@ -12,6 +12,9 @@ class RouteController extends Controller
     static function aboutme(){
         return view('pages.aboutme');
     }
+    static function experiences(){
+        return view('pages.experiences');
+    }
     static function projects(){
         return view('pages.projects');
     }

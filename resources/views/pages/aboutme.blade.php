@@ -13,22 +13,22 @@
             </p>
             <p class="text-lg leading-relaxed">
                 I’m in my third year of Software Development at <span class="font-semibold">Koning Willem I College</span>.
-                I’ve been learning a lot the past few years, from basic coding to building full projects, and I honestly
-                enjoy it way more than I expected.
+                I’ve been learning a lot the past few years, from basic coding to building full projects.
             </p>
             <p class="text-lg leading-relaxed">
-                I like figuring stuff out — building websites, experimenting with new tech, and making things that work
-                *and* look good. (Still working on the second part 😅)
+                I like figuring stuff out, building websites, experimenting with new tech, and making things that work
+                and look good. (Still working on the look good part 😅)
             </p>
             <p class="text-lg leading-relaxed">
-                Right now, I mostly use Laravel, JavaScript, and TailwindCSS. I also mess with React sometimes and I'm
+                Right now, I mostly use Laravel, VueJS, and TailwindCSS. I've also dabbled into CMS's with FilamentPHP
+                sometimes and I'm
                 digging deeper into backend stuff like APIs and databases.
             </p>
             <p class="text-lg leading-relaxed">
                 Outside of coding: gaming, music, chilling with friends, and building random side projects for fun.
             </p>
             <p class="text-lg leading-relaxed font-semibold">
-                I'm open for internships, freelance work, or just connecting with other devs. Let’s chat!
+                I'm open for any type of Part-time work.
             </p>
         </div>
 
@@ -40,35 +40,46 @@
             @php
                 $tech = [
                     [
-                        'name' => 'C# (Windows Forms .NET)',
-                        'logo' => '/path/to/logo-laravel.svg',
-                        'desc' => 'TESTY WESTY',
+                        'name' => 'C#',
+                        'logo' => './images/languages/csharp_icon.png',
+                        'desc' => 'Windows Forms .NET',
+                        'desc2' => '',
                     ],
                     [
                         'name' => 'Laravel',
-                        'logo' => '/path/to/logo-js.svg',
-                        'desc' => 'KAI IS KANKER ZESTY',
-                    ],
-                    [
-                        'name' => 'CSS3 & HTML5 & JS',
-                        'logo' => '/public/images/HTMLCSSJS.png',
-                        'desc' => 'LUUK HOUD VAN MANNEN',
+                        'logo' => './images/languages/laravel-icon.png',
+                        'desc' => 'Back-end WebDevelopment',
+                        'desc2' => '(most used stack)',
                     ],
                     [
                         'name' => 'VueJS',
-                        'logo' => '/path/to/vuejs.svg',
-                        'desc' => 'EMRAH GA IK AANRANDEN',
+                        'logo' => './images/languages/vue-icon.png',
+                        'desc' => 'Front-end WebDevelopment',
+                        'desc2' => '(most used stack)',
+                    ],
+                    [
+                        'name' => 'TailwindCSS',
+                        'logo' => './images/languages/Tailwind_icon.png',
+                        'desc' => 'Front-end WebDevelopment',
+                        'desc2' => '(most used stack)',
+                    ],
+                    [
+                        'name' => 'CSS3 & HTML5 & JS',
+                        'logo' => './images/languages/HTMLCSSJS.png',
+                        'desc' => 'Front-end WebDevelopment',
+                        'desc2' => '',
                     ],
                 ];
             @endphp
 
             @foreach ($tech as $item)
                 <div
-                    class="bg-white/10 backdrop-blur-2xl rounded-xl p-4 shadow-inner shadow-black text-black flex items-center space-x-4">
+                    class="bg-white/10 backdrop-blur-2xl rounded-xl p-4 shadow-inner shadow-black text-black flex items-center space-x-4 max-h-18.5">
                     <img src="{{ $item['logo'] }}" alt="{{ $item['name'] }}" class="w-10 h-10">
                     <div>
                         <h3 class="text-lg font-semibold">{{ $item['name'] }}</h3>
                         <p class="text-sm text-gray-600">{{ $item['desc'] }}</p>
+                        <p class="text-sm text-gray-600">{{ $item['desc2'] }}</p>
                     </div>
                 </div>
             @endforeach

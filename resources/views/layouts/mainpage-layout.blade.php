@@ -19,7 +19,7 @@
 </head>
 
 <body
-    class="flex flex-col items-center justify-center min-w-screen min-h-screen bg-[url('/public/images/cool_background3.jpg')] bg-no-repeat bg-cover">
+    class="flex flex-col items-center justify-center min-w-screen min-h-screen bg-[url('/public/images/backgrounds/cool_background3.jpg')] bg-no-repeat bg-cover">
     @include('components.navbar')
 
     <main class="">

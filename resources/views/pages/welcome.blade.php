@@ -3,7 +3,7 @@
 @section('content')
     <div class="w-full flex justify-center px-4">
         <div
-            class="bg-white/10 backdrop-blur-md rounded-2xl border border-white p-6 sm:p-8 md:p-10 w-full max-w-2xl shadow-lg mt-10">
+            class="bg-white/10 backdrop-blur-md rounded-2xl p-8 w-full max-w-3xl shadow-lg shadow-black text-black space-y-6">
             <div class="flex flex-col items-center space-y-6">
                 <h1 class="text-4xl sm:text-5xl text-black font-mono text-center font-bold">Console.Log(Senn)</h1>
                 <span class="h-1 w-2/3 sm:w-3/4 bg-black"></span>
