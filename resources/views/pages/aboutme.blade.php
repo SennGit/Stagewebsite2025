@@ -1,12 +1,13 @@
 @extends('layouts.mainpage-layout')
 
 @section('content')
-    <div class="w-full flex flex-col lg:flex-row justify-center items-start px-4 lg:space-x-8 space-y-10 lg:space-y-0 mt-10">
+    <div class="w-full flex flex-col lg:flex-row justify-center items-start px-4 lg:space-x-8 space-y-10 lg:space-y-0 mt-40">
 
         <!-- About Section -->
         <div
-            class="bg-white/10 backdrop-blur-md rounded-2xl p-8 w-full max-w-3xl shadow-lg shadow-black text-black space-y-6">
+            class="bg-white/10 backdrop-blur-md rounded-2xl p-8 w-full max-w-3xl shadow-lg shadow-black text-black space-y-6 flex flex-col items-center text-left">
             <h1 class="text-4xl font-bold text-center font-mono">About Me</h1>
+            <span class="h-1 bg-black w-30 relative top-[-25px]"></span>
             <p class="text-lg leading-relaxed">
                 Hey! I’m <span class="font-bold">Senn van den Bergh</span>, 19 years old and living in ’s-Hertogenbosch,
                 Netherlands.
