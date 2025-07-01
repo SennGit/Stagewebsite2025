@@ -3,7 +3,7 @@
 @section('content')
     <div class="flex relative justify-center px-4 mt-30">
         <div
-            class="bg-white/10 backdrop-blur-md rounded-2xl p-8 max-w-4xl shadow-lg shadow-black text-black space-y-6 flex flex-col items-center text-left">
+            class="bg-white/10 backdrop-blur-md rounded-2xl mb-20 p-8 max-w-4xl shadow-md shadow-black text-black space-y-6 flex flex-col items-center text-left">
 
             <h1 class="text-4xl font-bold text-center font-mono">Projects</h1>
             <span class="h-1 bg-black w-30 relative top-[-25px]"></span>

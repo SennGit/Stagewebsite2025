@@ -5,7 +5,7 @@
         <div class="flex w-full max-w-screen-xl gap-10 items-start mt-40">
             {{-- Side Menu --}}
             <div
-                class="bg-white/10 backdrop-blur-md rounded-2xl w-72 h-fit shadow-lg shadow-black text-black space-y-6 flex flex-col mr-4">
+                class="bg-white/10 backdrop-blur-md rounded-2xl w-72 h-fit mb-20 shadow-md shadow-black text-black space-y-6 flex flex-col mr-4">
                 <ul>
                     <li>
                         <a class="bg-white/10 backdrop-blur-md rounded-2xl p-3 m-5 flex justify-center text-black
@@ -28,7 +28,7 @@
             <div class="flex-1">
                 @if (isset($section) && $section === 'technohome')
                     <div
-                        class="bg-white/10 backdrop-blur-md rounded-2xl p-8 shadow-lg shadow-black text-black space-y-6 flex flex-col items-center">
+                        class="bg-white/10 backdrop-blur-md rounded-2xl p-8 mb-20 shadow-md shadow-black text-black space-y-6 flex flex-col items-center">
                         <h1 class="font-bold text-4xl">Stage Leerjaar 2</h1>
                         <span class="h-1 bg-black w-full"></span>
                         <img class="h-30" src="/images/logos/Technohome-logo.png" alt="">
@@ -61,7 +61,7 @@
 
                 @if (isset($section) && $section === 'xingredient')
                     <div
-                        class="bg-white/10 backdrop-blur-md rounded-2xl p-8 shadow-lg shadow-black text-black space-y-6 flex flex-col items-center">
+                        class="bg-white/10 backdrop-blur-md rounded-2xl p-8 shadow-lg mb-20 shadow-black text-black space-y-6 flex flex-col items-center">
                         <h1 class="font-bold text-4xl">Stage Leerjaar 3</h1>
                         <span class="h-1 bg-black w-full"></span>
                         <img class="h-20" src="/images/logos/xpnglogo.png" alt="X-Ingredient Logo">

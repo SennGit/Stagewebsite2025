@@ -5,7 +5,7 @@
 
         <!-- About Section -->
         <div
-            class="bg-white/10 backdrop-blur-md rounded-2xl p-8 w-full max-w-3xl shadow-lg shadow-black text-black space-y-6 flex flex-col items-center text-left">
+            class="bg-white/10 backdrop-blur-md rounded-2xl p-8 w-full max-w-3xl shadow-md shadow-black text-black space-y-6 flex flex-col items-center text-left">
             <h1 class="text-4xl font-bold text-center font-mono">About Me</h1>
             <span class="h-1 bg-black w-30 relative top-[-25px]"></span>
             <p class="text-lg leading-relaxed">
@@ -35,7 +35,7 @@
 
         <!-- Tech Stack Section -->
         <div
-            class="bg-white/10 backdrop-blur-md rounded-2xl p-8 w-full max-w-sm shadow-lg shadow-black text-black space-y-6">
+            class="bg-white/10 backdrop-blur-md rounded-2xl p-8 w-full max-w-sm shadow-md shadow-black text-black space-y-6">
             <h2 class="text-3xl font-bold text-center font-mono">Languages & Frameworks</h2>
 
             @php
@@ -70,7 +70,7 @@
                         'desc' => 'Front-end WebDevelopment',
                         'desc2' => '',
                     ],
-                ];
+                ];   
             @endphp
 
             @foreach ($tech as $item)
